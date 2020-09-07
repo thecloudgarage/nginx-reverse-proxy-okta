@@ -28,17 +28,17 @@ docker login
 docker push <your-docker-hub-a/c>/<image-name:tag>
 ```
 
-# RUN LOCALLY
+# Run Locally
 
 * Edit the docker-compose.yml file
-* Change the image name to <your-docker-hub-a/c>/<image-name:tag>
-* Edit the env variables to reflect your OKTA details and your upstream details
+* Change the image name to <your-docker-hub-account>/<image-name:tag>
+* Edit the env variables to reflect your OKTA details
 
 ```
 docker-compose up -d
 ```
 
-# RUN ON PIVOTAL WEB SERVICES
+# Run on Pivotal Web Services
 
 * Note that the unique-app-name will eventually result in a route for your app like unique-app-name.cfapps.io
 * Ensure that this is the same name that you are providing for the hostname used in OKTA base url, redirect url & trusted origins
