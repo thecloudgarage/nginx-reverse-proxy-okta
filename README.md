@@ -13,7 +13,7 @@
 * okta_url
 * okta_client_id
 * okta_client_secret
-* proxy_pass_upstream
+* NOTE: proxy pass upstream values are statically defined. please rebuild the docker-image changing the proxy_pass directive with the right value in nginx.conf.template
 
 # STEP-1 (Register on OKTA)
 
