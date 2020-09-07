@@ -9,4 +9,4 @@ services:
     environment:
       - okta_url=dev-xxxxx.okta.com
       - okta_client_id=yyyyyyyyyyyyyyyy
-      - okta_secret=zzzzzzzzzzzzzzzz
+      - okta_client_secret=zzzzzzzzzzzzzzzz
