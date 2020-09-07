@@ -48,7 +48,7 @@ http {
 
              discovery = "https://${okta_url}/.well-known/openid-configuration",
              client_id = "${okta_client_id}",
-             client_secret = "${okta_secret}",
+             client_secret = "${okta_client_secret}",
              --authorization_params = { hd="zmartzone.eu" },
              scope = "openid email profile",
              -- Refresh the users id_token after 900 seconds without requiring re-authentication
