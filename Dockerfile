@@ -1,4 +1,4 @@
-FROM anh-nginx-okta
+FROM thecloudgarage/nginx-reverse-proxy-okta:base
 RUN rm -rf /etc/nginx/nginx.conf
 COPY nginx.conf.template /etc/nginx/nginx.conf.template
 COPY docker-entrypoint.sh /
